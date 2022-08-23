@@ -1,0 +1,121 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Styling */
+html, body {
+    font-family : 'Segoe UI', Tahoma, Verdana, Geneva, Tahoma, sans-seri;
+    line-height: 1.7em;
+    background: #95c9f0;
+    height: 100%;
+  width: 100%;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* NavBar */
+#navbar {
+    background: #fff;
+    color: #333;
+    overflow: auto;
+    padding: 0 50px;
+}
+
+#navbar a {
+    color: #333;
+}
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+
+}
+
+.wrapper {
+    display:flex;
+    justify-content: center;
+    width: 70% vw;
+    
+}
+
+
+/* Quote Container */
+.quote-container {
+    background: #fff;
+    box-shadow: 0 20px 65px rgba(144, 201, 244, 0.613);
+    margin: 100px;
+    padding: 40px 30px;
+    width: 50%;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+.quote-container p {
+    color: #333;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.quote-container h3 {
+    color: #333;
+    margin: 20px 0 30px 0;
+    font-weight: 600;
+    
+}
+
+.quote-container button {
+    background-color: #95c9f0;
+    border: none;
+    padding: 15px 45px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+    padding:30px;
+    background: #fff;
+    color: #333;  
+}
+
+.social-links {
+  padding: 10px;
+}
+
+.allabout {
+     position: relative;
+    text-align: center;
+    text-transform: capitalize;
+
+  padding: 160px;
+}
